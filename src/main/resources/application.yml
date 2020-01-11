@@ -5,6 +5,19 @@ spring:
   application:
     name: app-item
 
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: admin
+    password: 123456
+    virtual-host: testhost1
+
+    #消息确认配置项
+    #确认消息已经发送到交换机（exchange）
+    publisher-confirms: true
+    #确认消息已经发送到队列（queue）
+    publisher-returns: true
+
 eureka:
   client:
     service-url:
@@ -14,7 +27,7 @@ eureka:
     #是否需要从Eureka上检索服务
     fetch-registry: true
   instance:
-    #将自己的ip地址注册到Eureka服务中
+    #将自己的ip地址注册到 Eureka 服务中
     prefer-ip-address: true
     ip-address: 127.0.0.1
     #指定实例id
