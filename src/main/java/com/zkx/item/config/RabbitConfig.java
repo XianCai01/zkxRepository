@@ -22,7 +22,7 @@ public class RabbitConfig {
     public RabbitTemplate createRabbitTemplate(ConnectionFactory connectionFactory){
         RabbitTemplate rabbitTemplate = new RabbitTemplate();
         rabbitTemplate.setConnectionFactory(connectionFactory);
-        //设置开启Mandatory，才能触发回调函数，无论消息推送结果如何都强制调用回调函数
+        //*设置开启Mandatory，才能触发回调函数，无论消息推送结果如何都强制调用回调函数
         rabbitTemplate.setMandatory(true);
 
         rabbitTemplate.setConfirmCallback(new RabbitTemplate.ConfirmCallback() {

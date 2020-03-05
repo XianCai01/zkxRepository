@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42525d13-bfba-449d-b69e-94e5fe83fd3e" name="Default Changelist" comment="" />
+    <list default="true" id="42525d13-bfba-449d-b69e-94e5fe83fd3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ClassLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zkx/item/config/DirectRabbitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zkx/item/config/FanoutRabbitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zkx/item/config/TopicRabbitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zkx/item/controller/mq/SendMessageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zkx/item/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/config/RabbitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zkx/item/controller/mq/SendMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/controller/mq/SendMessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zkx/item/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/entity/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zkx/item/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zkx/item/ApplicationMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zkx/item/ApplicationMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zkx/item/entity/Item$ItemBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zkx/item/entity/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zkx/item/entity/Item.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,10 +28,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -27,10 +47,12 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1Vk0fnUYda1bK6Nlz0a7zTrd5oy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -39,11 +61,17 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../orderproject" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27816093" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zkx.item.utils" />
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,7 +85,57 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FundDataTest.testHashSet">
+    <configuration name="FundDataTest.testArrayToList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itemsproject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FundDataTest" />
+      <option name="METHOD_NAME" value="testArrayToList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FundDataTest.testForEach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itemsproject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FundDataTest" />
+      <option name="METHOD_NAME" value="testForEach" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FundDataTest.testHashSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itemsproject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FundDataTest" />
+      <option name="METHOD_NAME" value="testHashSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FundDataTest.testListToArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itemsproject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FundDataTest" />
+      <option name="METHOD_NAME" value="testListToArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FundDataTest.testSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="itemsproject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FundDataTest" />
+      <option name="METHOD_NAME" value="testSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApplicationMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="itemsproject" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zkx.item.ApplicationMain" />
@@ -68,9 +146,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FundDataTest.testHashSet" />
+        <item itemvalue="JUnit.FundDataTest.testSet" />
+        <item itemvalue="JUnit.FundDataTest.testForEach" />
+        <item itemvalue="JUnit.FundDataTest.testArrayToList" />
+        <item itemvalue="JUnit.FundDataTest.testListToArray" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,22 +168,47 @@
       <updated>1577781891329</updated>
       <workItem from="1577781895513" duration="6195000" />
       <workItem from="1577930831176" duration="7975000" />
-      <workItem from="1577961405697" duration="4087000" />
+      <workItem from="1577961405697" duration="4216000" />
+      <workItem from="1578018900155" duration="3940000" />
+      <workItem from="1578383467716" duration="598000" />
+      <workItem from="1578563802403" duration="4773000" />
+      <workItem from="1578635738041" duration="12869000" />
+      <workItem from="1578705900087" duration="7161000" />
+      <workItem from="1578896287342" duration="1369000" />
+      <workItem from="1579001943261" duration="636000" />
+      <workItem from="1579053214365" duration="8627000" />
+      <workItem from="1579253997869" duration="8620000" />
+      <workItem from="1582009407343" duration="5000000" />
+      <workItem from="1582079259074" duration="7574000" />
     </task>
+    <task id="LOCAL-00001" summary="小刀初试--rabbitmq">
+      <created>1578707635153</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578707635153</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/zkx/item/service/ItemService.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="小刀初试--rabbitmq" />
+    <option name="LAST_COMMIT_MESSAGE" value="小刀初试--rabbitmq" />
   </component>
 </project>

@@ -59,8 +59,8 @@ public class SendMessageController {
         return "OK";
     }
 
-    @GetMapping("/sendfanoutMessage")
-    public String sendfanoutMessage(){
+    @GetMapping("/sendFanoutMessage")
+    public String sendFanoutMessage(){
         String messageId=String.valueOf(UUID.randomUUID());
         String messageData="fanout message : my is fanoutExchange!";
         String createTime= LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
