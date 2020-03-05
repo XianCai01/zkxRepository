@@ -2,22 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42525d13-bfba-449d-b69e-94e5fe83fd3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClassLoaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zkx/item/config/DirectRabbitConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zkx/item/config/FanoutRabbitConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zkx/item/config/TopicRabbitConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zkx/item/controller/mq/SendMessageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/base/BaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/base/BaseRspCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/config/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/config/redis/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/utils/BeanUtilsExtend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/utils/DataUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/utils/EmojiStringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/utils/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/utils/SessionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatisconfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FundDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zkx/item/config/RabbitConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zkx/item/config/RabbitConfig$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zkx/item/config/RabbitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zkx/item/utils/HttpUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/FundDataTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zkx/item/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/config/RabbitConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zkx/item/controller/mq/SendMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/controller/mq/SendMessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zkx/item/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/entity/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zkx/item/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zkx/item/service/ItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zkx/item/ApplicationMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zkx/item/ApplicationMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zkx/item/entity/Item$ItemBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zkx/item/entity/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zkx/item/entity/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,18 +66,25 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/zkx/item/utils" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27816093" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zkx.item.base" />
       <recent name="com.zkx.item.utils" />
+      <recent name="com.zkx.item.config" />
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\itemsproject\src\main\java\com\zkx\item\utils" />
+      <recent name="D:\itemsproject\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -180,6 +194,7 @@
       <workItem from="1579253997869" duration="8620000" />
       <workItem from="1582009407343" duration="5000000" />
       <workItem from="1582079259074" duration="7574000" />
+      <workItem from="1583391888902" duration="5089000" />
     </task>
     <task id="LOCAL-00001" summary="小刀初试--rabbitmq">
       <created>1578707635153</created>
@@ -188,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578707635153</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="小刀初试--rabbitmq">
+      <created>1583391950048</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583391950048</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
